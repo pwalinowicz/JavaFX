@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?import javafx.geometry.Insets?>
 
 <?import javafx.scene.control.Button?>
@@ -32,3 +33,66 @@
         </HBox>
     </bottom>
 </BorderPane>
+=======
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.FlowPane?>
+<!--<FlowPane fx:controller="sample.Controller"-->
+<!--                     xmlns:fx="http://javafx.com/fxml" orientation="VERTICAL">-->
+<!--    <Button text="Button One"/>-->
+<!--    <Button text="Button Two"/>-->
+<!--    <Button text="Button Three"/>-->
+<!--    <Button text="Button Four"/>-->
+<!--    <Button text="Button Five"/>-->
+<!--    <Button text="Button Six"/>-->
+<!--    <Button text="Button Seven"/>-->
+<!--    <Button text="Button Eight"/>-->
+<!--    <Button text="Button Nine"/>-->
+<!--    <Button text="Button Ten"/>-->
+<!--</FlowPane>-->
+
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<VBox fx:controller="sample.Controller"-->
+<!--      xmlns:fx="http://javafx.com/fxml">-->
+<!--<Button text="Button One"/>-->
+<!--<Button text="Button Two"/>-->
+<!--<Button text="Button Three"/>-->
+<!--<Button text="Button Four"/>-->
+<!--<Button text="Button Five"/>-->
+<!--<Button text="Button Six"/>-->
+<!--<Button text="Button Seven"/>-->
+<!--<Button text="Button Eight"/>-->
+<!--<Button text="Button Nine"/>-->
+<!--<Button text="Button Ten"/>-->
+<!--</VBox>-->
+<?import javafx.scene.layout.TilePane?>
+
+<!--<TilePane fx:controller="sample.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml">-->
+<!--    <Button text="Button One"/>-->
+<!--    <Button text="Button Two"/>-->
+<!--    <Button text="Button Three"/>-->
+<!--    <Button text="Button Four"/>-->
+<!--    <Button text="Button Five"/>-->
+<!--    <Button text="Button Six"/>-->
+<!--    <Button text="Button Seven"/>-->
+<!--    <Button text="Button Eight"/>-->
+<!--    <Button text="Button Nine"/>-->
+<!--    <Button text="Button Ten"/>-->
+<!--</TilePane>-->
+
+<?import javafx.scene.layout.StackPane?>
+<StackPane fx:controller="sample.Controller"
+           xmlns:fx="http://javafx.com/fxml">
+    <Button text="Button One" style="-fx-background-color: red"/>
+    <Button text="Button Two"/>
+    <Button text="Button Three"/>
+    <Button text="Button Four"/>
+    <Button text="Button Five"/>
+    <Button text="Button Six"/>
+    <Button text="Button Seven"/>
+    <Button text="Button Eight"/>
+    <Button text="Button Nine"/>
+    <Button text="Button Ten" style="-fx-background-color: green"/>
+</StackPane>
+>>>>>>> master
